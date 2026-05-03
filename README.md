@@ -27,11 +27,11 @@ graph TD
     C --> D{CDS Interface Views<br>I_CustomerSalesData}
     D --> E[(SAP HANA DB<br>VBAK, VBAP, VBRK, VBRP)]
     
-    style A fill:#e3f2fd,stroke:#1e88e5,stroke-width:2px
-    style B fill:#fff3e0,stroke:#fb8c00,stroke-width:2px
-    style C fill:#e8f5e9,stroke:#43a047,stroke-width:2px
-    style D fill:#e8f5e9,stroke:#43a047,stroke-width:2px
-    style E fill:#eceff1,stroke:#546e7a,stroke-width:2px
+    style A fill:#e3f2fd,stroke:#1e88e5,stroke-width:2px,color:#000
+    style B fill:#fff3e0,stroke:#fb8c00,stroke-width:2px,color:#000
+    style C fill:#e8f5e9,stroke:#43a047,stroke-width:2px,color:#000
+    style D fill:#e8f5e9,stroke:#43a047,stroke-width:2px,color:#000
+    style E fill:#eceff1,stroke:#546e7a,stroke-width:2px,color:#000
 ```
 
 ## Development Process
@@ -45,7 +45,7 @@ flowchart LR
     P2 --> P3["Phase 3:<br>Fiori Elements Frontend"]
     P3 --> P4["Phase 4:<br>Testing & QA"]
 
-    classDef phase fill:#f3e5f5,stroke:#8e24aa,stroke-width:2px;
+    classDef phase fill:#f3e5f5,stroke:#8e24aa,stroke-width:2px,color:#000;
     class P0,P1,P2,P3,P4 phase;
 ```
 

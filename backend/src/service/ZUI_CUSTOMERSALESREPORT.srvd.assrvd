@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition for Customer Sales Report'
+define service ZUI_CUSTOMERSALESREPORT {
+  expose ZC_CustomerSalesReport as CustomerSalesReport;
+}

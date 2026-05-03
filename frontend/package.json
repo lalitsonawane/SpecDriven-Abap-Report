@@ -1,0 +1,11 @@
+{
+  "name": "customer-sales-report",
+  "version": "1.0.0",
+  "description": "Customer Sales Report Fiori App",
+  "scripts": {
+    "start": "ui5 serve --config=ui5.yaml --open index.html"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^3.0.0"
+  }
+}
